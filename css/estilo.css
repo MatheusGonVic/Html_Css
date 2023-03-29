@@ -1,0 +1,124 @@
+/*Limpar formatações padrão*/
+* { /*fomatação de todo o código*/
+	margin: 0; /*margem*/
+	padding: 0; /*preenchimento*/
+}
+
+body { /*corpo da página*/
+	font-size: 1em; /*tamanho da fonte*/
+	font-family: "Trebuchet MS", Helvetica, sans-serif; /*tipo de fonte*/
+	background: #e6e6e6; /*fundo*/
+}
+
+/*Layout*/
+#area-cabecalho {
+	background: #3C6178; /*fundo*/
+	padding: 25px; /*preenchimento*/
+	text-align: center; /*alinhamento de texto*/
+}
+
+#area-logo, #area-menu {
+	padding: 10px; /*preenchimento*/
+}
+
+#area-principal {
+	width: 920px; /*largura*/
+	margin: auto; /*margem*/
+	padding: 15px; /*preenchimento*/
+}
+
+#area-postagens {
+	width: 660px; /*largura*/
+	float: left; /*flutuar para esquerda*/
+}
+
+#area-lateral {
+	width: 240px; /*largura*/
+	float: right; /*flutuar para direita*/
+}
+
+.postagem {
+	padding: 20px; /*preenchimento*/
+	margin-bottom: 20px; /*margem inferior*/
+	background: white; /*fundo*/
+}
+
+.conteudo-lateral { 
+	background: white; /*fundo*/
+	padding: 10px; /*preenchimento*/
+	margin-bottom: 20px; /*margem inferior*/
+}
+
+#rodape {
+	clear: both; /*remover fluxo flutuante (float)*/
+	text-align: center; /*alinhamento de texto*/
+	padding: 15px; /*preenchimento*/
+	background: #CCC; /*fundo*/
+}
+
+/*Formatações gerais*/
+h1 { /*titulo tecblog*/
+	color: #f7b600; /*cor*/
+	font-size: 2.5em; /*tamanho da fonte*/
+}
+
+h2 {
+	color: #3C6178; /*cor*/
+}
+
+h3 {
+	color: #3C6178; /*cor*/
+	background: #CCC; /*fundo*/
+	padding: 3PX; /*preenchimento*/
+}
+
+h4 {
+	color: #3C6178; /*cor*/
+	padding: 3PX; /*preenchimento*/
+}
+
+.branco { /*definir a cor da palavra blog*/
+	color: white; /*cor*/
+}
+
+.azul { /*definir a cor da palavra ituiutaba*/
+	color: #3C6178; /*cor*/
+}
+
+.data-postagem {
+	font-size: 0.8em; /*tamanho da fonte*/
+	border-bottom: 1px solid #f4f4f4; /*borda inferior*/
+	padding-bottom: 10px; /*preenchimento inferior*/
+	margin-bottom: 10px; /*margem inferior*/
+	display: block; 
+}
+
+.texto-lateral {
+	font-size: 0.8em; /*tamanho da fonte*/
+	padding: 5px; /*preenchimento*/
+}
+
+/*Formatação do menu*/
+a {
+	text-decoration: none; /*decoração de texto*/
+}
+
+a:link, a:visited { /*visitação do link*/
+	color: #3C6178; /*cor*/
+}
+
+a:hover { /*flutuar*/
+	text-decoration: underline; /*decoração de texto*/
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited { /*visitação do link*/
+	color: #FFF; /*cor*/
+	padding: 8px 12px; /*preenchimento*/
+}
+
+#area-cabecalho a:hover { /*flutuar*/
+	color: #f7b600; /*cor*/
+	background: #FFF; /*fundo*/
+	text-decoration: none; /*decoração de texto*/
+}
+
